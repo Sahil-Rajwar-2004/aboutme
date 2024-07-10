@@ -1,0 +1,110 @@
+@font-face {
+    font-family: "ProggyClean";
+    src: url("./ProggyCleanSZNerdFontPropo-Regular.ttf") format("truetype");
+}
+
+.heading{
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    font-family: "ProggyClean", monospace;
+    text-align: center;
+}
+
+.heading h1 {
+    font-size: 5rem;
+    user-select: none;
+}
+
+.name {
+    font-size: 6rem;
+    color: coral;
+}
+
+a{
+    font-size: 2rem;
+    text-decoration: none;
+    color:  black;
+}
+
+.link{
+    font-size: 1.5rem;
+}
+
+.content {
+    margin: 0;
+    padding: 1rem;
+    padding-left: 5rem;
+    padding-right: 5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: "ProggyClean";
+    font-size: 1.5rem;
+}
+
+.para {
+    user-select: none;
+}
+
+.imp {
+    font-weight: bolder;
+
+}
+
+.work {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    user-select: none;
+}
+
+.books {
+    padding-bottom: 1rem;
+}
+
+.songs {
+    padding-bottom: 1rem;
+}
+
+.sports {
+    padding-bottom: 1rem;
+}
+
+.note {
+    margin: 0;
+    padding: 1rem;
+    padding-left: 5rem;
+    padding-right: 5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: "ProggyClean";
+    font-size: 1.5rem;
+    user-select: none;
+
+}
+
+::-webkit-scrollbar {
+    width: 12px;
+}
+
+::-webkit-scrollbar-track {
+    background: #f1f1f1;
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: #888;
+    border-radius: 6px;
+    border: 3px solid #f1f1f1;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background-color: #555;
+}
